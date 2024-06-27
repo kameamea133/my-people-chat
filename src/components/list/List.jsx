@@ -8,7 +8,7 @@ const List = () => {
   return (
     <div className='list'>
       <UserInfo />
-      <chatList />
+      <ChatList />
     </div>
   )
 }
