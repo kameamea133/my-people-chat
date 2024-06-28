@@ -40,10 +40,45 @@ const Chat = () => {
         <FaPhone size={20}/>
         <IoVideocam size={20}/>
         <IoIosInformationCircle size={20}/>
-
         </div>
       </div>
-      <div className='center'></div>
+      <div className='center'>
+        <div className='message'>
+        <RxAvatar size={50}/>
+          <div className='texts'>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message own'> 
+          <div className='texts'>
+          <img src="https://images.pexels.com/photos/315998/pexels-photo-315998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="beach"/>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message'>
+          <RxAvatar size={50}/>
+          <div className='texts'>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message own'>
+          <div className='texts'>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message'>
+        <RxAvatar size={50}/>
+          <div className='texts'>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        
+      </div>
       <div className='bottom'>
         <div className='icons'>
         <FaImage />

@@ -62,4 +62,7 @@
         border-radius: 50%;
     }
 }
+.chatList::-webkit-scrollbar{
+    display: none;
+}
 
