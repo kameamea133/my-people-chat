@@ -1,4 +1,3 @@
-import React from 'react'
 import { RxAvatar } from "react-icons/rx";
 import { IoMdArrowUp, IoMdArrowDown , IoMdDownload} from "react-icons/io";
 

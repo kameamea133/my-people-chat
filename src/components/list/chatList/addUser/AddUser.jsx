@@ -1,4 +1,3 @@
-import React from 'react'
 import './addUser.css'
 import { RxAvatar } from "react-icons/rx";
 

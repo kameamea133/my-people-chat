@@ -1,4 +1,3 @@
-import React from 'react'
 import "./userInfo.css"
 import { RxAvatar, RxCamera } from "react-icons/rx";
 import { IoIosMore } from "react-icons/io";

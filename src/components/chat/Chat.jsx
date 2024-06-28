@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react'
+/* eslint-disable react/no-unescaped-entities */
+import { useState, useRef, useEffect } from 'react'
 import "./chat.css"
 import EmojiPicker from 'emoji-picker-react';
 import { RxAvatar } from "react-icons/rx";
