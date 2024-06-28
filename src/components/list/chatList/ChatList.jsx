@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { IoMdSearch } from "react-icons/io";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { RxAvatar } from "react-icons/rx";
+import AddUser from "./addUser/AddUser"
 
 
 
@@ -45,7 +46,7 @@ const ChatList = () => {
         <p>hello</p>
       </div>
       </div>
-
+        {addMode && <AddUser />  }            
     </div>
   )
 }

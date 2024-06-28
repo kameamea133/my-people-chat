@@ -23,7 +23,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 24px;
 
         .option{
 
@@ -86,13 +86,17 @@
         button{
             background-color: rgba(230, 74, 105, 0.553 );
             color: white;
-            padding: 10px 20px;
+            padding: 15px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
 
             &:hover{
                 background-color: rgba(230, 74, 105, 0.796 );
+            }
+            &.logout{
+                padding: 10px;
+                background-color: #1a73e8;
             }
         }
     }
