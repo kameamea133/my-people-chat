@@ -2,15 +2,19 @@ import "./userInfo.css"
 import { RxAvatar, RxCamera } from "react-icons/rx";
 import { IoIosMore } from "react-icons/io";
 import { AiOutlineEdit } from "react-icons/ai";
+import { useUserStore } from "./../../../lib/userStore";
 
 const UserInfo = () => {
+  const { currentUser } = useUserStore()
+
+
   return (
     <div className='userInfo'>
     <div className='user'>
+      <img src={currentUser.avatar || "./avatar.png"}/>
+      
     
-      <RxAvatar size={24}/>
-    
-      <h2>Stephane Monnier</h2>
+      <h2>{currentUser.username}</h2>
     </div>
     <div className='icons'>
     <IoIosMore />

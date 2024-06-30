@@ -15,12 +15,12 @@ function App() {
 
 useEffect(() => {
   const unSub = onAuthStateChanged(auth, (user) => {
-    fetchUserInfo(user.uid)
+    fetchUserInfo(user?.uid)
   }) 
 return () => unSub();
 }, [fetchUserInfo])
 
-console.log(currentUser)
+
 
 if (isLoading) return <div className='loading'>Loading...</div>
 
